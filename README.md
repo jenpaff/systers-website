@@ -13,6 +13,6 @@ run
 and it will generate the static page in `_site` and serve it locally
 
 ## Todos
-[] merge with images from wireframes
-[] modify config.yml 
-[] style according to systers color scheme
+* [ ] merge with images from wireframes
+* [ ] modify config.yml 
+* [ ] style according to systers color scheme
