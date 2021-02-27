@@ -42,10 +42,10 @@ keepers:
   - line: Zaza
   - line: Megan
   - line: Prachi
-  - line: Jennifer Parak
+  - line: Jennifer
 
 # Credits content
-credits: 'Inspired by and based on <a href="https://github.com/jeromelachaud/freelancer-theme">Freelance Bootstrap Theme</a>.'
+credits: 'The systers community is a part of <a href="https://anitab.org/">AnitaB.org</a>. The website design was inspired by and based on <a href="https://github.com/jeromelachaud/freelancer-theme">Freelance Bootstrap Theme</a>.'
 
 # Build settings
 markdown: kramdown
