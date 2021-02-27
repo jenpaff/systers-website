@@ -285,10 +285,10 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #{{ site.color.primary }};
     font-size: 20px;
     color: #fff;
-    background: 0 0;
+    background: #{{ site.color.primary }};
     transition: all .3s ease-in-out;
 }
 
@@ -296,8 +296,8 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #{{ site.color.secondary }};
+    border: solid 2px #{{ site.color.primary }};
+    color: #{{ site.color.primary }};
     background: #fff;
 }
 
