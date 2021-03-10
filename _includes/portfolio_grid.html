@@ -13,6 +13,9 @@
                     <p>Systers hosts 23 different affinity groups where women technologists can connect with and offer support to members of their self-identified cultures.</p>
                 </div>
             </div>
+
+
+            {% if site.showAffinityGroupPortfolio %}
             <div class="portfolio-flex-row">
                 {% for post in site.posts %}
                     <div class="portfolio-flex-item portfolio-item">
@@ -27,5 +30,6 @@
                     </div>
                 {% endfor %}
             </div>
+            {% endif %}
         </div>
     </section>
