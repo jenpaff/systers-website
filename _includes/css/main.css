@@ -10,6 +10,7 @@ body {
 
 p {
     font-size: 20px;
+    margin-top: 1rem;
 }
 
 p.small {
@@ -34,6 +35,8 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    padding: 3rem;
+    margin-bottom: 3rem;
 }
 
 hr.star-light,
@@ -182,11 +185,18 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    background-color: #ef4135;
+    color: white;
 }
 
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
+}
+
+section.success h2 {
+    background-color: white;
+    color: #ef4135;
 }
 
 @media(max-width:767px) {
@@ -284,11 +294,11 @@ section.success {
   } */
 
 .btn-outline {
-    margin-top: 15px;
+    margin-top: 30px;
     border: solid 2px #fff;
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.button-color }};
     transition: all .3s ease-in-out;
 }
 
@@ -296,8 +306,8 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #{{ site.color.primary }};
-    color: #{{ site.color.primary }};
+    border: solid 2px #{{ site.color.button-color }};
+    color: #{{ site.color.button-color }};
     background: #fff;
 }
 
