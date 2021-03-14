@@ -1,2 +1,12 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+
+.carousel-inner > .item {
+  height: 50rem;
+}
+
+@media(max-width:767px) {
+  .carousel-inner > .item {
+    height: 20rem;
+  }
+}
