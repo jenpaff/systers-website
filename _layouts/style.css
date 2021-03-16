@@ -5,8 +5,30 @@
   height: 50rem;
 }
 
+#about-image {
+  background-image: url("img/about_us.png");
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+#affinity-image {
+  background-image: url("img/affinity_groups.png");
+  height: 350px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
 @media(max-width:767px) {
   .carousel-inner > .item {
     height: 20rem;
+  }
+
+  #about-image {
+    height: 300px;
+    width: 100%;
+  }
+
+  #affinity-image {
+    background-image: url("img/affinity_groups_small.png");
   }
 }
