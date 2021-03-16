@@ -41,10 +41,11 @@ social:
 
 # Systers Keepers
 keepers:
-  - line: Zaza
-  - line: Megan
-  - line: Prachi
-  - line: Jennifer
+  - line: Zaza Soriano
+  - line: Megan Amos
+  - line: Jennifer Parak
+  - line: Prachi Manchanda
+
 
 # Credits content
 credits: 'The systers community is a part of <a href="https://anitab.org/">AnitaB.org</a>. The website design was inspired by and based on <a href="https://github.com/jeromelachaud/freelancer-theme">Freelance Bootstrap Theme</a>.'
