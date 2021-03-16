@@ -11,11 +11,3 @@ run
 `jekyll serve`
 
 and it will generate the static page in `_site` and serve it locally
-
-## Todos
-* [X] merge with images from wireframes
-* [X] modify config.yml 
-* [ ] style according to systers color scheme
-* [ ] finalise content
-* [ ] add slider to landing page 
-* [ ] add logo in header
