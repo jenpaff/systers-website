@@ -8,6 +8,6 @@
 
 run
 
-`jekyll serve`
+`bundle exec jekyll serve`
 
 and it will generate the static page in `_site` and serve it locally
