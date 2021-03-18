@@ -27,15 +27,15 @@ color:
 footer:
   copyright: Systers
   keepers: Systers Keepers
-  social: Around the Web
+  social: Get in touch
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: envelope
+    url: mailto:systers-keeper@systers.org
   - title: twitter
     url: https://twitter.com/systers_org
-  - title: facebook
-    url:
   - title: github
     url: https://github.com/anitab-org
 
