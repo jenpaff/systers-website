@@ -2,7 +2,7 @@
 {% include css/main.css %}
 
 .carousel-inner > .item {
-  height: 50rem;
+  height: 55rem;
 }
 
 #about-image {
@@ -12,7 +12,7 @@
 }
 
 #affinity-image {
-  background-image: url("img/affinity_groups.png");
+  background-image: url("img/affinity_groups_small1.jpg");
   height: 350px;
   width: 100%;
   background-repeat: no-repeat;
@@ -29,6 +29,6 @@
   }
 
   #affinity-image {
-    background-image: url("img/affinity_groups_small.png");
+    background-image: url("img/affinity_groups_small1.jpg");
   }
 }
